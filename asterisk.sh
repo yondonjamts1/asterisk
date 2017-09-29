@@ -6,7 +6,7 @@ echo "You think Mr.Yondonjamts' awesome? [y,n]"
 read ans
 if [ "$ans" == "y" ] || [ "$ans" == "Y" ] || [ "$ans" == "yes" ] || [ "$ans" == "YES" ] || [ "$ans" == "Yes" ]; then
 sudo apt update
-sudo apt-get install uuid-dev libjansson-dev libxml2-dev libsqlite3-dev ncurses-dev wget
+sudo apt-get -y install uuid-dev libjansson-dev libxml2-dev libsqlite3-dev ncurses-dev wget
 wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-14-current.tar.gz
 tar xzvf asterisk-14-current.tar.gz
 cd asterisk-14*
