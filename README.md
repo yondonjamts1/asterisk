@@ -6,7 +6,7 @@ You just need to clone the repository and run the file
 # How to run the file
 1. First of all you need to change mode to executable.
 ```
-$ sudo chmod +x install.sh
+$ sudo chmod +x asterisk.sh
 ```
 2. Run the file
 ```
