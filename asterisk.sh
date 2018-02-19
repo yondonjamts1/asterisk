@@ -7,11 +7,11 @@ read ans
 if [ "$ans" == "y" ] || [ "$ans" == "Y" ] || [ "$ans" == "yes" ] || [ "$ans" == "YES" ] || [ "$ans" == "Yes" ]; then
 sudo apt update
 sudo apt-get -y install uuid-dev libjansson-dev libxml2-dev libsqlite3-dev ncurses-dev wget
-wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-14-current.tar.gz
-tar xzvf asterisk-14-current.tar.gz
-cd asterisk-14*
+wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-15-current.tar.gz
+tar xzvf asterisk-15-current.tar.gz
+cd asterisk-15*
 sudo ./configure
-make
+sudo make
 sudo make install
 sudo make samples
 sudo ldconfig
