@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "IT IS PROTOTYPE VERSION, IF YOU HAVE ANY ISSUE, CONTACT TO US" 
 echo "yondonjamts.ganzorig@gmail.com"
-sleep 4
+sleep 1
 echo "You think Mr.Yondonjamts' awesome? [y,n]"
 read ans
 if [ "$ans" == "y" ] || [ "$ans" == "Y" ] || [ "$ans" == "yes" ] || [ "$ans" == "YES" ] || [ "$ans" == "Yes" ]; then
